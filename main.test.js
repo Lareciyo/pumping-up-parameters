@@ -3,6 +3,33 @@
 Your code goes below.
 
 */
+let x = 3
+let y = 10
+let z = 5
+var name = "Lareciyo"
+var greeting = "HEY"
+
+function multiply(num){
+  x = x * num
+}
+
+function modYBy(num){
+  y = y % num
+}
+
+function opposite(num){
+z = -num
+}
+function makeFullName(lastName){
+  name = name + " " + lastName
+}
+
+
+function yellAt(friend){
+  greeting = greeting + ", " + friend + "!"
+}
+
+
 
 
 
